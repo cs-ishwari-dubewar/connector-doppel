@@ -1,3 +1,3 @@
-#### The following enhancements have been made to the Doppel connector in version 1.1.0:
+#### The following enhancements have been made to the Doppel connector in version 2.0.0:
 
-- Added the `User API Key` parameter to the Configuration section.
+- The connector now supports two authentication methods: API Key and OAuth.
