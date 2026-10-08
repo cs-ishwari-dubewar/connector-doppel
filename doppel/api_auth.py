@@ -7,15 +7,12 @@ Copyright end
 
 from time import time
 import requests
-
+from .constants import *
 from connectors.core.connector import get_logger, ConnectorError
 from connectors.core.utils import update_connnector_config
 from .constants import DOPPEL_TOKEN_URL, DOPPEL_AUDIENCE, DOPPEL_GRANT_TYPE
 
 logger = get_logger('doppel')
-
-TOKEN_LIFETIME = 86400
-TOKEN_REFRESH_BUFFER = 300
 
 
 class DoppelAuth:

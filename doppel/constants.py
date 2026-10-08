@@ -15,6 +15,9 @@ AUTH_TYPE_OAUTH = 'OAuth'
 API_VERSION_V1 = 'v1/'
 API_VERSION_V2 = 'v2/'
 
+TOKEN_LIFETIME = 86400
+TOKEN_REFRESH_BUFFER = 300
+
 ALERT_STATE = {
     "Doppel Review": "doppel_review",
     "Needs Confirmation": "needs_confirmation",
